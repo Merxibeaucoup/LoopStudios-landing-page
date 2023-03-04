@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  padding: 1rem 2rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* mobile button **/
+  &__menu-btn {
+    padding: 2rem;
+    cursor: pointer;
+
+    .bar {
+      width: 3.5rem;
+      height: 3px;
+      background-color: $White;
+      margin: 0 0 5px;
+    }
+  }
+
+  &__nav {
+    display: none;
+  }
+}

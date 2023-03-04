@@ -1,0 +1,21 @@
+.interactive {
+  padding: 5rem 2rem;
+  &__img {
+    width: 100%;
+  }
+
+  &__content {
+    margin: 4rem 5.8rem;
+    text-align: center;
+
+    &-heading {
+      font-size: 3rem;
+      color: $Black;
+      line-height: 1.2;
+    }
+
+    &-paragraph {
+      margin-top: 2rem;
+    }
+  }
+}
