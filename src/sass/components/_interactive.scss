@@ -27,15 +27,15 @@
     @media (min-width: 992px) {
       position: absolute;
       width: 60rem;
-      right: 0;
-      bottom: -5rem;
+      right: 10rem;
+      bottom: -10rem;
       padding: 5rem;
       background-color: $White;
     }
 
     @media (min-width: 1280px) {
       width: 80rem;
-      right: 10rem;
+      right: 18rem;
     }
 
     &-heading {

@@ -3,9 +3,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70rem;
+  height: 80vh;
 
   @media (min-width: 1024px) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
     background: url("/public/images/desktop/image-hero.jpg");
   }
 
