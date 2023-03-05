@@ -22,7 +22,7 @@ const Footer = () => {
             </ul>
           ))}
         </div>
-        <div>
+        <div className="footer__socials__container">
           <ul className="footer__socials">
             <li>
               <GrFacebook />
@@ -37,12 +37,12 @@ const Footer = () => {
               <FaInstagram />
             </li>
           </ul>
-          <div>
-            <p className="footer__copyright">
-              {" "}
-              &copy; {new Date().getFullYear()} Loopstudios. All rights reserved
-            </p>
-          </div>
+        </div>
+        <div className="footer__copyright__container">
+          <p className="footer__copyright">
+            {" "}
+            &copy; {new Date().getFullYear()} Loopstudios. All rights reserved
+          </p>
         </div>
       </footer>
     </>
